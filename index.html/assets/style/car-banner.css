@@ -1,0 +1,36 @@
+#hero-banner {
+    display: flex;
+    align-items: center;
+    padding: 72px 20px;
+    gap: 32px;
+  }
+  
+  .car-content h1 {
+    font-size: 48px;
+  }
+  
+  .car-content p {
+    margin: 18px 0;
+  }
+  
+  .car-container {
+    display: flex;
+    gap: 10px;
+  }
+   
+  .bugatti img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #hero-banner {
+      flex-direction: column-reverse;
+    }
+  
+    .car-container {
+      flex-direction: column;
+    }
+  }
